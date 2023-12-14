@@ -1,8 +1,15 @@
 
-function App() {
+import Chai from "./chai"
 
-  return (
-   <h1>Chai aur react with Vite</h1>
+function App() {
+  const username='chai aur code'
+  return (  
+   <>
+    <Chai/>
+    <h1>chai aur react {username}</h1>  
+    {/* {username} this is evaluated expression where inside this we will write tha variable */}
+    <p>test para</p>
+   </>
   )
 }
 
