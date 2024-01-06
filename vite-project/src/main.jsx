@@ -27,6 +27,9 @@ const anotherElement=(
 
 const anotherUser="chai aur react"
 const reactElement=React.createElement(
+  // tags
+  // objects
+  // object (not if else there )bez it is evaluate expression
   'a',
   {href:'https://google.com',target:'_blank'},
   "Click me to visit google",
