@@ -70,7 +70,7 @@ function App() {
                             currencyOptions={options}
                             onCurrencyChange={(currency) => setTo(currency)}
                             selectCurrency={to} // if selectCurrency={from} then default value is usd 
-                            amountDisable
+                            amountDisable  //we can't entry the amount
                         />
                     </div>
                     <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
