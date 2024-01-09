@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Default background color */
+html {
+    background-color: #1a1a1a;
+    /*background-color: #ffffff; */
+    /* light background color */
+  }
+  
+  /* Dark theme styles */
+  html.dark {
+    background-color: #ffffff; /* dark background color */
+  }
