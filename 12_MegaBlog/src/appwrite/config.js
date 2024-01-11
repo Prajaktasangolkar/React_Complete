@@ -1,4 +1,4 @@
-import conf from "../../conf/conf";
+import conf from "../conf/conf";
 
 // we want services so that connect with appwrite
 import { Client, ID ,Databases,Storage,Query} from "appwrite";
@@ -134,7 +134,7 @@ export class Service{
                 }
     }
 
-    getFilePrviwe(fileId){  //this is very fast so not need of async
+    getFilePreviwe(fileId){  //this is very fast so not need of async
         return this.bucket.getFilePreview(
             conf.appwriteBucketId,
             fileId

@@ -1,4 +1,4 @@
-import conf from "../../conf/conf";
+import conf from "../conf/conf";
 
 // we want services so that connect with appwrite
 import { Client, Account, ID } from "appwrite";
