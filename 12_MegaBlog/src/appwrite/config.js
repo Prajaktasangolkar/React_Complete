@@ -134,7 +134,7 @@ export class Service{
                 }
     }
 
-    getFilePreviwe(fileId){  //this is very fast so not need of async
+    getFilePreview(fileId){  //this is very fast so not need of async
         return this.bucket.getFilePreview(
             conf.appwriteBucketId,
             fileId
